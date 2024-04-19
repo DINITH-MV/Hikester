@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_svgrepo_com"
+        android:title="@string/title_home"
+        android:orderInCategory="100"
+         />
+    <item
+        android:id="@+id/navigation_nav"
+        android:icon="@drawable/navigation_arrows_svgrepo_com"
+        android:title="@string/title_nav"
+        android:orderInCategory="101"
+        />
+    <item
+        android:id="@+id/navigation_weather"
+        android:icon="@drawable/weather_symbol"
+        android:title="@string/title_weather"
+        android:orderInCategory="102"
+         />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile"
+        android:title="@string/title_profile"
+        android:orderInCategory="103"
+         />
+</menu>
